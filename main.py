@@ -35,7 +35,7 @@ async def main():
         elif c==2:
             webbrowser.open("https://www.instagram.com/")
     def aaaii(textss):
-        genai.configure(api_key="AIzaSyD6N4t0eNwGy3rNRZMeJZbwFbRPH7oqWvQ")
+        genai.configure(api_key="apikey")
 
         model = genai.GenerativeModel(
             model_name="gemini-2.5-flash",
